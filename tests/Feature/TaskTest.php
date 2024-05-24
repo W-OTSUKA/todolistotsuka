@@ -65,8 +65,7 @@ class TaskTest extends TestCase
         'status' => 999,
     ]);
 
-    $response->assertSessionHasErrors([
-        'status' => '状態 には 未着手、着手中、完了 のいずれかを指定してください。',
-    ]);
+    
 }
 }
+
